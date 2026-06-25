@@ -4,7 +4,7 @@ format = """$env_var$os $all$character"""
 right_format = """$cmd_duration $time"""
 
 [line_break]
-disabled = true
+disabled = false
 
 [env_var.STARSHIP_DISTRO]
 format = '[$env_value](white)'
